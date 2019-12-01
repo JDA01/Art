@@ -1,0 +1,117 @@
+body {
+    background: url("images/bg.jpg") center center no-repeat/cover;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-family: 'Italianno', cursive;
+    font-size: 6rem;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+p {
+text-align: center;
+color: white;
+padding-top: 2%;
+}
+.swiper-container {
+width: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.swiper-slide {
+background-position: center;
+background-size: cover;
+width: 300px;
+height: 300px;
+}
+.imgBx img {
+    width: 100%;
+    height: 100%;
+}
+
+/* MEDIA QUERIES */
+/* PHONE */
+@media(max-width: 414px) {
+body {
+    background: url("images/bg.jpg") center center/cover;
+}
+h1 {
+    font-family: 'Italianno', cursive;
+    font-size: 4rem;
+    padding-top: 40%;
+}
+p {
+    padding-top: 20%;
+    font-size: .9rem;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+}
+
+/* TABLET */
+@media(min-width: 415px) {
+body {
+    background: url("images/bg.jpg") center center/cover;
+}
+h1 {
+    font-family: 'Italianno', cursive;
+    font-size: 5rem;
+    padding-top: 30%;
+}
+p {
+    padding-top: 20%;
+    font-size: 1.3rem;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+}
+
+/* LAPTOP */
+@media(min-width: 769px){
+body {
+    background: url("images/bg.jpg") center center/cover;
+}
+h1 {
+    font-family: 'Italianno', cursive;
+    font-size: 5rem;
+    padding-top: 10%;
+}
+p {
+    padding-top: 20%;
+    font-size: 1.3rem;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+}
